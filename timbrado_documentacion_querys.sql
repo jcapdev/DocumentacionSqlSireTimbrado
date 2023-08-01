@@ -1,6 +1,6 @@
     /*lISTADO DE CATALOGO DE EMPRESAS*/
     select distinct id,nombre from empresas where inactiva=0 order by nombre desc
-
+    /*PRUEBAS*/
 
     /*NOMINA INTERNA VALUDA EB BACKEND*/
     Select * from catalogo_empresas_nomina_interna  
